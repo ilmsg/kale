@@ -1,0 +1,41 @@
+{{define "content"}}
+<section class="py-5">
+    <div class="container px-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-5">
+                <div class="card shadow border-0">
+                    <div class="card-body p-4">
+                        <h2 class="fw-bolder text-center mb-4">Login</h2>
+                        <form>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" />
+                                <label for="email">Email address</label>
+                            </div>
+                            <!-- Password input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="password" type="password"
+                                    placeholder="Enter your password" />
+                                <label for="password">Password</label>
+                            </div>
+                            <!-- Checkbox-->
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">
+                                    Remember me
+                                </label>
+                            </div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton"
+                                    type="submit">Login</button></div>
+                        </form>
+                        <div class="text-center mt-3">
+                            <a href="#!">Forgot password?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{end}}
